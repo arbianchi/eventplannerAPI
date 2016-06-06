@@ -1,0 +1,2 @@
+system curl -X POST -d'{"title": "event","date":"0607","time":"sometime","zipcode":"27711"}' http://localhost:4567/calendar -H "AUTHORIZATION: arb"
+system curl http://localhost:4567/calendar/event -H "AUTHORIZATION: arb"
